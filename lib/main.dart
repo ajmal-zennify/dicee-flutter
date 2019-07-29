@@ -19,7 +19,15 @@ class DicePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text('This is a dic game'),
+      child: Center(
+        child: Text(
+          'This is a dic game',
+          style: TextStyle(
+            fontSize: 30,
+            color: Colors.white,
+          ),
+        ),
+      ),
     );
   }
 }
